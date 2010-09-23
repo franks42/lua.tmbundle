@@ -7,7 +7,7 @@
 	<key>command</key>
 	<string>#!/bin/bash
 
-TM_CORONA_EMULATOR="/Applications/Corona2.0-Beta8/Corona Simulator.app/Contents/MacOS/Corona Simulator"
+TM_CORONA_EMULATOR='/Applications/Corona Game Edition Beta/simulator'
 
 esc () {
 STR="$1" ruby &lt;&lt;"RUBY"
@@ -23,7 +23,7 @@ osascript &lt;&lt;- APPLESCRIPT
 	tell app "Terminal"
 	    launch
 	    activate
-	    do script "clear; cd $(esc "${TM_DIRECTORY}"); $(esc "${TM_CORONA_EMULATOR}") $(esc "${TM_DIRECTORY}")"
+	    do script "clear; cd $(esc "${TM_DIRECTORY}"); $(esc "${TM_CORONA_EMULATOR}") ."
 	end tell
 APPLESCRIPT
 
@@ -31,7 +31,7 @@ APPLESCRIPT
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
-	<string>~E</string>
+	<string>@e</string>
 	<key>name</key>
 	<string>Run Corona Emulator</string>
 	<key>output</key>

@@ -7,7 +7,7 @@
 	<key>command</key>
 	<string>#!/bin/bash
 
-TM_CORONA_EMULATOR="/Applications/Corona2.0-Beta8/Corona Simulator.app/Contents/MacOS/Corona Simulator"
+TM_CORONA_EMULATOR="/Applications/Corona\ Game\ Edition\ Beta/Corona Simulator.app/Contents/MacOS/Corona Simulator"
 
 esc () {
 STR="$1" ruby &lt;&lt;"RUBY"
